@@ -48,7 +48,7 @@ knitr::include_graphics('imagenes/figura03C.png')
 
 ## Según oferta/demanda
 
-Una segunda forma de clasificación posible de los `RA` parte de la perspectiva o enfoque desde la porción del mercado turístico de la que se brinda información. Es decir, si está ligado a la demanda(actividades, consumos, etc. realizados por los visitantes) o a la oferta (unidades productoras o prestadoras de bienes y servicios).
+Una segunda forma de clasificación posible de los `RA` parte de la perspectiva o enfoque desde la porción del mercado turístico de la que se brinda información. Es decir, si está ligado a la demanda (actividades, consumos, etc. realizados por los visitantes) o a la oferta (unidades productoras o prestadoras de bienes y servicios).
 
 En efecto, desde la demanda, las unidades informantes (públicas y/o privadas) más comunes son:
 
@@ -88,7 +88,7 @@ En efecto, se podría clasificar como parcial y/o total la información proporci
 
 Por ejemplo, se pueden encontrar `RA` de tipo parcial como ser las personas que visitaron algún atractivo turístico de una determinada provincia, ya que esta información permite visualizar sólo a una porción del universo total de visitantes, (quienes ingresan a los atractivos) que podrían arribar a dicha provincia. Por lo tanto, la información de dicho registro claramente representa sólo una porción y, por ende, si el objetivo es conocer el total de visitantes, se deberá contemplar algún proceso de conversión de forma tal que permita expandir dicho valor al total.
 
-En cambio, entre aquellos de tipo total se pueden encontrar a los provenientes de accesos a la provincia, municipio y/o departamento, los cuales posibilitan una aproximación, con relativa significatividad, respecto de la medición del total de la afluencia turística. Por ejemplo, en una determinada provincia, los peajes y/o puestos camineros, al registrar el total de servicios (tanto privados --automóviles, camiones, motocicletas, casas rodantes, etc.-, como públicos --ómnibus-) según frecuencia y capacidad total de traslado de personas cuentan con vasta información de ingresos y egresos de las personas a dicha jurisdicción. No obstante, la limitación que presenta dicho registro, es la imposibilidad de diferenciar a los visitantes (turistas y/o excursionistas) del total de personas trasladas, para lo cual, se requerirá realizar un operativo estadístico que permita cuantificar dicha magnitud.\
+En cambio, entre aquellos de tipo total se pueden encontrar a los provenientes de accesos a la provincia, municipio y/o departamento, los cuales posibilitan una aproximación, con relativa significatividad, respecto de la medición del total de la afluencia turística. Por ejemplo, en una determinada provincia, los peajes y/o puestos camineros, al registrar el total de servicios (tanto privados --automóviles, camiones, motocicletas, casas rodantes, etc.-, como públicos --ómnibus-) según frecuencia y capacidad total de traslado de personas cuentan con vasta información de ingresos y egresos de las personas a dicha jurisdicción. No obstante, la limitación que presenta dicho registro, es la imposibilidad de diferenciar a los visitantes (turistas y/o excursionistas) del total de personas trasladadas, para lo cual, se requerirá realizar un operativo estadístico que permita cuantificar dicha magnitud.\
 
 ## Según utilización
 
