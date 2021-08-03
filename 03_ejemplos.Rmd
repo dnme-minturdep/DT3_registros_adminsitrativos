@@ -52,7 +52,7 @@ El primer paso, consistió en diferenciar la localidad de destino. De la encuest
 
 La cantidad promedio de pasajeros por vehículo a cada localidad, fue de 2,3 personas hacia *A* (345 personas en 150 vehículos), 3,0 personas hacia *B* y 4,0 personas hacia la localidad *C*. Este dato resulta relevante si es que se busca aplicar dichos coeficientes a futuras estimaciones. Para este punto resulta relevante tener presente las necesidades de actualización mencionadas en el primer capítulo.
 
-Fuera de Temporada Alta (entre abril y noviembre, sin contar los fines de semana largos)del estudio implementado, se desprende que el $20\%$ fueron con destino a la localidad *A*, el $45\%$ a la *B* y el $35\%$ a la localidad *C*, con una cantidad promedio de pasajeros de 2,0 por vehículo hacia *A*, 2,5 hacia *B* y 3,0 hacia *C*.
+Fuera de Temporada Alta (entre abril y noviembre, sin contar los fines de semana largos) del estudio implementado, se desprende que el $20\%$ fueron con destino a la localidad *A*, el $45\%$ a la *B* y el $35\%$ a la localidad *C*, con una cantidad promedio de pasajeros de 2,0 por vehículo hacia *A*, 2,5 hacia *B* y 3,0 hacia *C*.
 
 Como se puede observar, la diferencia entre ambos periodos de temporada radica tanto en la proporción de vehículos que tiene como destino cada localidad (por ejemplo, a la localidad A se dirige el $25\%$ de los vehículos de temporada alta y el $45\%$ de los de fuera de temporada), como en la cantidad de pasajeros promedio por vehículo (siguiendo con la localidad A, 2,3 personas en temporada alta y 2,0 personas fuera de temporada).
 
