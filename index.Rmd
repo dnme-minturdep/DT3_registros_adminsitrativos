@@ -23,7 +23,7 @@ Además de este, se encuentran disponibles una serie de documentos técnicos que
 
 -   [Documento Técnico \#4](https://dnme-minturdep.github.io/DT4_perfiles/){target="_blank"}: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
 
--   Documento Técnico \#5: Medición de la contribución económica del turismo: actividad y empleo
+-   [Documento Técnico \#5](https://dnme-minturdep.github.io/DT5_actividad_empleo/){target="_blank"}: Medición de la contribución económica del turismo: actividad y empleo
 
 ### Documento Técnico Nº3 - Resumen {.unnumbered}
 
