@@ -68,11 +68,11 @@ Atractivos:
 
 En cambio, desde la perspectiva de la oferta, se podría agrupar a las unidades informantes tales como:
 
--   Terminales (Ómnibus, Aéreas y/o FF.CC) -- informando sobre cantidad de servicios que ingresan y/o egresan a la unidad geográfica
+-   Terminales (Ómnibus, Aéreas y/o FF.CC) -- informando sobre cantidad de servicios que ingresan y/o egresan a la unidad geográfica;
 
--   Registro y/o Padrón de Establecimientos de Alojamiento Turístico (dependiente de la Provincia, Departamentos y/o Municipios)
+-   Registro y/o Padrón de Establecimientos de Alojamiento Turístico (dependiente de la Provincia, Departamentos y/o Municipios);
 
--   Agencias de Turismo
+-   Agencias de Turismo;
 
 -   Guías de Turismo.
 
