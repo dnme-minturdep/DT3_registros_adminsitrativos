@@ -205,9 +205,7 @@ Tomando en consideración a otro de los `RA` que permite construir datos que den
 
 En primer lugar, identificar a la población objetivo: los visitantes (tanto turistas como excursionistas) que vayan a solicitar información a los CIT[^ejemplos-10]. Luego, se deberá determinar el alcance geográfico (provincia, municipio, etc.) y temporal del estudio.
 
-[^ejemplos-10]: Es decir, no será el universo de visitantes en la provincia, departamento y/o municipio lo que se estará estudiando, sino un subconjunto de éstos. Por otro lado, no es poco usual que residentes en un destino se acerquen a un CIT en búsqueda de información. No obstante tal situación no se contempla aquí para no complejizar el ejemplo.
-
-    \
+[^ejemplos-10]: Es decir, no será el universo de visitantes en la provincia, departamento y/o municipio lo que se estará estudiando, sino un subconjunto de éstos. Por otro lado, no es poco usual que residentes en un destino se acerquen a un CIT en búsqueda de información. No obstante tal situación no se contempla aquí para no complejizar el ejemplo.\
 
 Seguidamente se presenta un ejemplo propuesto siguiendo los pasos mencionados. En la localidad "X" se posee un único CIT que funciona en temporada alta (3 meses) y registra en forma diaria la cantidad de individuos que ingresan a consultar información ("consultas atendidas").
 
