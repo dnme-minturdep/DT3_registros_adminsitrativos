@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Capítulo 1 Los registros administrativos | Documento Técnico N°3: Registros Administrativos</title>
   <meta name="description" content="Descripción, Análisis y Utilización de Registros Administrativos para la medición del Turismo" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Capítulo 1 Los registros administrativos | Documento Técnico N°3: Registros Administrativos" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,7 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="clasificaciones.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,8 +50,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -127,10 +152,10 @@
 <p>La explotación de los RA se posiciona como una herramienta para la producción de estadísticas de Turismo a nivel nacional, provincial y/o departamental, ya que pueden complementarse con la información que surge de otras fuentes, por ejemplo, operativos propios (del organismo en cuestión) u otras fuentes secundarias.</p>
 <p>En la literatura especializada no se encuentra una definición universal respecto de qué se entiende por registro administrativo. Pese a esto, resulta importante analizar algunas de las definiciones encontradas:</p>
 <blockquote>
-<p>“…todo registro resultante de necesidades fiscales, tributarias u otras, creado con la finalidad de viabilizar la administración de los programas de gobierno o para fiscalizar el cumplimento de obligaciones legales de la sociedad. Para su utilización con fines estadísticos es preciso evaluar su base conceptual y metodológica, clasificaciones, cobertura alcanzada, variables investigadas, calidad de las respuestas, procesamiento de los datos y frecuencia de disponibilidad de ellos…” <span class="citation">(<a href="bibliografía.html#ref-cepal2003" role="doc-biblioref">Echegoyen 2003</a>)</span>.</p>
+<p>“…todo registro resultante de necesidades fiscales, tributarias u otras, creado con la finalidad de viabilizar la administración de los programas de gobierno o para fiscalizar el cumplimento de obligaciones legales de la sociedad. Para su utilización con fines estadísticos es preciso evaluar su base conceptual y metodológica, clasificaciones, cobertura alcanzada, variables investigadas, calidad de las respuestas, procesamiento de los datos y frecuencia de disponibilidad de ellos…” <span class="citation">(<a href="#ref-cepal2003" role="doc-biblioref">Echegoyen 2003</a>)</span>.</p>
 </blockquote>
 <blockquote>
-<p>“…aquellos registros de carácter administrativo y operativo, son procedimientos que utilizan las instituciones para registrar datos de las actividades propias de su función, muchas de ellas relacionadas con la oferta de un servicio público, otras que identifican a usuarios del Estado, y algunas que se derivan de las actividades realizadas con empresas e instituciones nacionales e internacionales, la cual no necesariamente coincide con los fines estadísticos, por lo que requiere un tratamiento especial para su utilización…” <span class="citation">(<a href="bibliografía.html#ref-inei2004" role="doc-biblioref">INEI 2004</a>)</span>.</p>
+<p>“…aquellos registros de carácter administrativo y operativo, son procedimientos que utilizan las instituciones para registrar datos de las actividades propias de su función, muchas de ellas relacionadas con la oferta de un servicio público, otras que identifican a usuarios del Estado, y algunas que se derivan de las actividades realizadas con empresas e instituciones nacionales e internacionales, la cual no necesariamente coincide con los fines estadísticos, por lo que requiere un tratamiento especial para su utilización…” <span class="citation">(<a href="#ref-inei2004" role="doc-biblioref">INEI 2004</a>)</span>.</p>
 </blockquote>
 <p>A partir de lo señalado anteriormente surge que el RA no es una fuente de origen estadístico propiamente dicho, ya que su finalidad es administrativa, y además, su propósito es servir para un control normativo. Es decir, registra un evento o acto individual referido a un individuo u objeto y lo afecta directamente.</p>
 <p>Por ejemplo, en una operación de compra-venta de un objeto se emite una factura, lo que implica que se registra un evento normativo con fines fiscales; al solicitar un empleo se completa una planilla para evaluar el perfil del solicitante; al faltar una norma de tránsito se levanta una boleta de citación o una multa que deberá ser cancelada, etc. En conclusión, ninguno de estos eventos es propiamente estadístico, sin embargo, se convierte en una fuente de información estadística luego de ser tratada mediante procedimientos convenientes.</p>
@@ -138,14 +163,14 @@
 <blockquote>
 <p>“Aquella información que surge de los procedimientos administrativos y/o operativos que desarrollan y utilizan las instituciones (públicas o privadas) como método de registro de las diferentes actividades (turísticas y/o no turísticas) realizadas.”</p>
 </blockquote>
-<p>En base a las experiencias internacionales recopiladas, se da cuenta de los requerimientos que deben cumplir los procesos de diseño, recolección, producción y difusión de los <code>RA</code> <span class="citation">(<a href="bibliografía.html#ref-dane2010a" role="doc-biblioref">DANE 2010</a>)</span>. Éstos deben responder a criterios de calidad estadística, como lo son:</p>
-<p>* <strong>Credibilidad</strong>: Se basa en la confianza que tienen los usuarios sobre el proceso estadístico del registro administrativo. Evalúa los «estándares estadísticos apropiados», es decir, políticas y prácticas objetivas para el diseño, recolección, almacenamiento, procesamiento y difusión de datos estadísticos <span class="citation">(<a href="bibliografía.html#ref-ine2007" role="doc-biblioref">INE 2007</a>)</span>.</p>
-<p>* <strong>Oportunidad</strong>, temporalidad y accesibilidad: Es el período en el que la información es de valor y se puede actuar o tomar decisiones acorde con ella. Estrechamente relacionada a la oportunidad está la puntualidad, que implica la existencia de una agenda de publicación y refleja el grado de cumplimiento de ella <span class="citation">(<a href="bibliografía.html#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>.</p>
+<p>En base a las experiencias internacionales recopiladas, se da cuenta de los requerimientos que deben cumplir los procesos de diseño, recolección, producción y difusión de los <code>RA</code> <span class="citation">(<a href="#ref-dane2010a" role="doc-biblioref">DANE 2010</a>)</span>. Éstos deben responder a criterios de calidad estadística, como lo son:</p>
+<p>* <strong>Credibilidad</strong>: Se basa en la confianza que tienen los usuarios sobre el proceso estadístico del registro administrativo. Evalúa los «estándares estadísticos apropiados», es decir, políticas y prácticas objetivas para el diseño, recolección, almacenamiento, procesamiento y difusión de datos estadísticos <span class="citation">(<a href="#ref-ine2007" role="doc-biblioref">INE 2007</a>)</span>.</p>
+<p>* <strong>Oportunidad</strong>, temporalidad y accesibilidad: Es el período en el que la información es de valor y se puede actuar o tomar decisiones acorde con ella. Estrechamente relacionada a la oportunidad está la puntualidad, que implica la existencia de una agenda de publicación y refleja el grado de cumplimiento de ella <span class="citation">(<a href="#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>.</p>
 <p>Según la Organización para la Cooperación y Desarrollo Económicos (OECD), la información estadística puede considerarse de calidad en la medida en que se encuentre disponible en el momento en que aún es relevante para el seguimiento y evaluación, y/o la toma de decisiones respecto al fenómeno que estudia o que es objeto de medición.</p>
-<p>* <strong>Accesibilidad</strong>: Evalúa la rapidez de localización y el acceso dentro de la organización. La accesibilidad incluye la conveniencia de la manera en que los datos están disponibles, los medios de divulgación, la disponibilidad de metodologías, metadatos, datos y servicios de apoyo al usuario <span class="citation">(<a href="bibliografía.html#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>.</p>
+<p>* <strong>Accesibilidad</strong>: Evalúa la rapidez de localización y el acceso dentro de la organización. La accesibilidad incluye la conveniencia de la manera en que los datos están disponibles, los medios de divulgación, la disponibilidad de metodologías, metadatos, datos y servicios de apoyo al usuario <span class="citation">(<a href="#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>.</p>
 <p>Es necesario tener en cuenta que la forma en que se presentan los datos a los usuarios sea clara y comprensible, lo que implica estrategias de difusión adecuadas e imparciales y si el usuario tiene acceso a metadatos actualizados, sin ningún tipo de restricción. Además, es necesario contar con sistemas de apoyo a los usuarios que utilizan los datos.</p>
-<p>En términos de la CEPAL, este criterio contempla las <em>«condiciones físicas en que los usuarios pueden obtener los datos: dónde y cómo pedirlos, tiempo de entrega, política clara de precios, formatos de disponibilidad, otros</em>»<span class="citation">(<a href="bibliografía.html#ref-cepal2003" role="doc-biblioref">Echegoyen 2003</a>)</span>.</p>
-<p>* <strong>Pertinencia o relevancia</strong>: Es una medida cualitativa del valor aportado por la información. El valor está directamente relacionado con el grado de utilidad para satisfacer el propósito por el cual la información fue buscada o solicitada. Depende de la cobertura de los tópicos requeridos y del apropiado uso de conceptos. La medición de la relevancia de un producto estadístico requiere de la identificación de su grupo de usuarios y sus necesidades <span class="citation">(<a href="bibliografía.html#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>. Los datos producidos por los <code>RA</code> tienen múltiples usos y usuarios que pueden cambiar con el tiempo.</p>
+<p>En términos de la CEPAL, este criterio contempla las <em>«condiciones físicas en que los usuarios pueden obtener los datos: dónde y cómo pedirlos, tiempo de entrega, política clara de precios, formatos de disponibilidad, otros</em>»<span class="citation">(<a href="#ref-cepal2003" role="doc-biblioref">Echegoyen 2003</a>)</span>.</p>
+<p>* <strong>Pertinencia o relevancia</strong>: Es una medida cualitativa del valor aportado por la información. El valor está directamente relacionado con el grado de utilidad para satisfacer el propósito por el cual la información fue buscada o solicitada. Depende de la cobertura de los tópicos requeridos y del apropiado uso de conceptos. La medición de la relevancia de un producto estadístico requiere de la identificación de su grupo de usuarios y sus necesidades <span class="citation">(<a href="#ref-oecd2003" role="doc-biblioref">OECD 2003</a>)</span>. Los datos producidos por los <code>RA</code> tienen múltiples usos y usuarios que pueden cambiar con el tiempo.</p>
 <p>Asimismo, cada uno de los múltiples <code>RA</code>, poseen características propias respecto de la forma en que se fueron sistematizando y registrando. En efecto, para su aprovechamiento como fuente secundaria para la producción de estadísticas metodológicamente elaboradas, resulta posible identificar diferentes aspectos respecto de la utilidad y los requerimientos que posean cada uno.</p>
 <p>Entre los principales elementos respecto de la utilidad de los mismos, se puede destacar que:</p>
 <ol style="list-style-type: lower-roman">
@@ -164,8 +189,8 @@ Figura 1.1: Utilidad y requerimientos para el uso de los Registros Administrativ
 </div>
 <p>El análisis que se haga de los datos generados a partir de los <code>RA</code> estará condicionado por la forma en que estas cuestiones sean encaradas y solucionadas tanto desde la propia institución que genera los datos como por el organismo que los utiliza con fines estadísticos. En efecto, se deben contemplar ciertos recaudos al momento de la utilización de los datos, la forma en que se los extrapole, los ponderadores que se utilicen, etc. con el propósito de procurar que las cifras obtenidas de las fuentes secundarias sean lo más representativas de la realidad que se procura captar.</p>
 <p>El fortalecimiento de los <code>RA</code> para fines estadísticos constituye un proceso que busca desarrollar la base metodológica y conceptual, la oportunidad de recolección, las variables y la disponibilidad de la información recolectada, a través de una metodología que permita potencializarlos como fuente de información estadística para la toma de decisiones y la formulación de planes, proyectos y políticas públicas destinadas al sector turístico.</p>
-<p>En este sentido, a fin de que un registro administrativo sea utilizado para un análisis estadístico se deberán contemplar, al menos, los siguientes criterios: la base metodológica, la clasificación con la que cuenta el registro, la cobertura geográfica, la calidad de la registración de los datos que posee, la temporalidad y oportunidad y los medios por los cuales se puede disponer de la información <span class="citation">(<a href="bibliografía.html#ref-inegi2006" role="doc-biblioref"><em>Proceso Estándar Para El Aprovechamiento de Registros Administrativos</em> 2006</a>)</span>.</p>
-<p>Como ya se ha mencionado, desarrollar una metodología válida y clara es fundamental para una correcta utilización de los RA en la confección de estadísticas del turismo (ET). Así, en la <strong>Figura N°1.2</strong> se presenta un conjunto de etapas y/o fases para la correcta conversión de la información almacenada en los RA, tal que permitan abordar el objetivo buscado por quien los esté utilizando.</p>
+<p>En este sentido, a fin de que un registro administrativo sea utilizado para un análisis estadístico se deberán contemplar, al menos, los siguientes criterios: la base metodológica, la clasificación con la que cuenta el registro, la cobertura geográfica, la calidad de la registración de los datos que posee, la temporalidad y oportunidad y los medios por los cuales se puede disponer de la información <span class="citation">(<a href="#ref-inegi2006" role="doc-biblioref"><em>Proceso Estándar Para El Aprovechamiento de Registros Administrativos</em> 2006</a>)</span>.</p>
+<p>Como ya se ha mencionado, desarrollar una metodología válida y clara es fundamental para una correcta utilización de los RA en la confección de estadísticas del turismo (ET). Así, en la Figura N°1.2 se presenta un conjunto de etapas y/o fases para la correcta conversión de la información almacenada en los RA, tal que permitan abordar el objetivo buscado por quien los esté utilizando.</p>
 <div class="figure" style="text-align: center"><span id="fig:Fases"></span>
 <img src="imagenes/figura02.png" alt="Fases de la conversión de datos provenientes de registros administrativos en información estadística" width="100%" />
 <p class="caption">
@@ -188,7 +213,7 @@ Figura 1.2: Fases de la conversión de datos provenientes de registros administr
 <div id="situación-internacional" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Situación Internacional</h2>
 <p>La Organización Mundial del Turismo (OMT) recomienda la utilización de los RA como una de las fuentes secundarias principales, junto a las encuestas, para la producción de estadísticas tendientes a la medición del Turismo.</p>
-<p>En este sentido, en línea con lo comentado anteriormente, se resalta el hecho de que las estadísticas basadas en <code>RA</code> suelen ser subproductos de los procesos administrativos. Asimismo, enuncian que con frecuencia se basan en operaciones continuas, por lo que pueden ser una fuente útil de estadísticas constantes y longitudinales. Sin embargo, se reconoce el hecho de que los <code>RA</code> también pueden tener algunos inconvenientes, como una cobertura y contenido limitados, conceptos y definiciones inflexibles, falta de exhaustividad, incoherencias y un acceso limitado debido a restricciones legales o administrativas <span class="citation">(<a href="bibliografía.html#ref-omt2010" role="doc-biblioref">OMT 2010</a>)</span>.</p>
+<p>En este sentido, en línea con lo comentado anteriormente, se resalta el hecho de que las estadísticas basadas en <code>RA</code> suelen ser subproductos de los procesos administrativos. Asimismo, enuncian que con frecuencia se basan en operaciones continuas, por lo que pueden ser una fuente útil de estadísticas constantes y longitudinales. Sin embargo, se reconoce el hecho de que los <code>RA</code> también pueden tener algunos inconvenientes, como una cobertura y contenido limitados, conceptos y definiciones inflexibles, falta de exhaustividad, incoherencias y un acceso limitado debido a restricciones legales o administrativas <span class="citation">(<a href="#ref-omt2010" role="doc-biblioref">OMT 2010</a>)</span>.</p>
 <p>A pesar de reconocer la importancia que los <code>RA</code> poseen para la confección de información estadística, no suelen hallarse recomendaciones en cuanto al procedimiento metodológico a aplicar en la búsqueda de la conversión de la información administrativa en información estadística. Por tanto, cada país se encuentra a cargo de la confección del procedimiento metodológico a aplicar a fin de realizar una óptima conversión de la información y aquí radica la importancia del presente documento.</p>
 <p>En materia de experiencias internacionales, a modo de un sintético estado de situación, se hace referencia a experiencias denominadas como ¨buenas prácticas¨ en los usos y utilización de los <code>RA</code>.</p>
 <p>Un caso que resulta relevante mencionar es el de España, debido a la utilización exhaustiva de los <code>RA</code> como insumo para la producción de estadísticas de Turismo. Los estudios en los que se centran, muchos de ellos realizados en la actualidad por el Instituto Nacional de Estadística (INE), son los siguientes:</p>
@@ -216,15 +241,15 @@ Con este proceso, y junto con información obtenida de la Encuesta de Turismo In
 </div>
 <p>Asimismo, desde el Ministerio de Turismo y Deportes de la Nación (MINTURDEP), se recopilan cifras sobre la cantidad de visitantes a los Parque Nacionales, dependientes de la Administración Nacional de Parques, ubicados en las distintas jurisdicciones provinciales. En su mayoría estos datos se encuentran clasificados por nacionalidad de origen (argentinos/extranjeros). Dentro de la última variable, en varios casos, los argentinos se encuentran diferenciados según tengan origen o no en la provincia en donde se encuentra el Parque Nacional en cuestión. Con esta información, el MINTURDEP elabora estimaciones estadísticas sobre visitantes a un subconjunto de los distintos parques nacionales, constituidos por una selección de 35 parques que cuentan con métodos sistemáticos de registro de visitas de las 49 áreas protegidas nacionales existentes. Es decir, no se cuenta con información sobre la totalidad de los parques nacionales existentes. No obstante, gracias a las cifras recopiladas por APN, el MINTURDEP cuenta con la posibilidad de confeccionar estadísticas importantes en relación a los flujos de visitas, de manera sistemática y confiable, dado que los datos recibidos poseen robustez gracias a la metodología mediante la cual se recaban históricamente.</p>
 <div class="note">
-<p>Para mayor información sobre los PN podes consultar los informes mensuales publicados en:</p>
+<p>Para mayor información sobre los PN podés consultar los informes mensuales publicados en:</p>
 <p><a href="https://www.yvera.tur.ar/estadistica/info/parques-nacionales" target="_blank">Yvera - Parques Nacionales</a></p>
 <p><a href="http://datos.yvera.gob.ar/dataset/parques-nacionales" target="_blank">Series estadísticas</a></p>
 </div>
 <p>Otro RA utilizado sistemáticamente por el MINTURDEP es la base de movimientos aéreos, de cabotaje e internacional, que elabora la Administración Nacional de Aviación Civil (ANAC), y que incluye todo tipo de movimientos aéreos- regulares, no regulares, como así también aquellos movimientos correspondientes a vuelos privados, a vuelos oficiales y a maniobras. La información de esta fuente, ya sea en forma pura o en combinación con los datos de otra fuente secundaria (la base de la DNM), resulta de suma utilidad para complementar el análisis de turismo interno e internacional. La cobertura de la información de esta fuente es total, ya que capta todos los movimientos (hasta las maniobras de las escuelas de aviación). Sin embargo, acorde al objetivo de caracterizar el turismo interno e internacional, el MINTURDEP realiza un recorte de esta base, seleccionando únicamente los movimientos de un conjunto de empresas comerciales, que realizan habitualmente vuelos regulares y no regulares, ya que es probable que estos últimos transporten mayoriatariamente visitantes (aunque el ser “pasajero” no es sinónimo de ser “visitante”).</p>
 <div class="note">
-<p>Para consultar las estadísticas aerocomerciales de la Argentina podes visitar la sección de datos de la página web de la <a href="https://datos.anac.gob.ar/estadisticas/" target="_blank">ANAC</a></p>
+<p>Para consultar las estadísticas aerocomerciales de la Argentina podés visitar la sección de datos de la página web de la <a href="https://datos.anac.gob.ar/estadisticas/" target="_blank">ANAC</a></p>
 </div>
-<p>Finalmente, el SIPA -Sistema Integrado Previsional Argentino- es otro RA trabajado por el por el <a href="http://www.trabajo.gob.ar/estadisticas/" target="_blank">Ministerio de Trabajo</a> y utilizado por el MINTURDEP para el seguimiento del empleo en el sectór turístico. El SIPA contabiliza los puestos de trabajo privados asalariados registrados a nivel mensual y trimestral con distintos niveles de desagregación geográfica (nacional y provincial) y de ramas de acividad.Su utilización para la estadística de turismo es tratada en el Documento Tecnico N°5.</p>
+<p>Finalmente, el SIPA -Sistema Integrado Previsional Argentino- es otro RA trabajado por el <a href="http://www.trabajo.gob.ar/estadisticas/" target="_blank">Ministerio de Trabajo</a> y utilizado por el MINTURDEP para el seguimiento del empleo en el sectór turístico. El SIPA contabiliza los puestos de trabajo privados asalariados registrados a nivel mensual y trimestral con distintos niveles de desagregación geográfica (nacional y provincial) y de ramas de acividad.Su utilización para la estadística de turismo es tratada en el Documento Tecnico N°5.</p>
 <p>Por otro lado, a nivel provincial, departamental y/o municipal se utilizan múltiples <code>RA</code> tanto desde la perspectiva de la oferta como de demanda. Aun así, existe subexplotación de la información existente y, en segundo lugar, falencias con el relevamiento y procesamiento de la información.</p>
 <p>A continuación, se listan los puntos más comunes en torno a las falencias mencionadas a fin de realizar una óptima utilización de los <code>RA</code>:</p>
 <ul>
@@ -238,6 +263,30 @@ Con este proceso, y junto con información obtenida de la Encuesta de Turismo In
 <br />
 </p>
 
+</div>
+</div>
+<h3><strong>Bibliografía</strong></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-dane2010a" class="csl-entry">
+DANE, Departamento Administrativo Nacional de Estadísticas. 2010. <em>Metodología Para El Fortalecimiento de Registros Administrativos</em>. Colombia.
+</div>
+<div id="ref-cepal2003" class="csl-entry">
+Echegoyen, Graciela. 2003. <em>Registros Administrativos, Calidad de Los Datos y Credibilidad pública</em>. CEPAL/Chile: Conferencia Estadística de las Américas de la CEPAL.
+</div>
+<div id="ref-ine2007" class="csl-entry">
+INE, Instituto Nacional de Estadísticas de Chile. 2007. <em>Dimensiones de La Calidad Según OCDE y Eurostat</em>. Serie Estudios, N° 4. Santiago de Chile, Chile.
+</div>
+<div id="ref-inei2004" class="csl-entry">
+INEI, Instituto Nacional de Estadística e Informática. 2004. <em>Plan Estadístico Nacional 2004</em>. Lima, Perú.
+</div>
+<div id="ref-oecd2003" class="csl-entry">
+OECD, Organización para la Cooperación y el Desarrollo Económico. 2003. <em>Quality Framework and Guideline for OECD Statistical Activities</em>. Francia.
+</div>
+<div id="ref-omt2010" class="csl-entry">
+OMT, Orgnización Mundial de Turismo. 2010. <em>Recomendaciones Internacionales Para La Estadística Del Turismo</em>. Edición 2008. EE.UU.: Naciones Unidas. EE.UU.
+</div>
+<div id="ref-inegi2006" class="csl-entry">
+<em>Proceso Estándar Para El Aprovechamiento de Registros Administrativos</em>. 2006. México: Instituto Nacional de Estadística y Geografía.
 </div>
 </div>
 <div class="footnotes">
@@ -276,6 +325,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
