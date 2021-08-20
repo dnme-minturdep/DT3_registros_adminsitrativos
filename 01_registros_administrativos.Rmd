@@ -64,7 +64,7 @@ El fortalecimiento de los `RA` para fines estadísticos constituye un proceso qu
 
 En este sentido, a fin de que un registro administrativo sea utilizado para un análisis estadístico se deberán contemplar, al menos, los siguientes criterios: la base metodológica, la clasificación con la que cuenta el registro, la cobertura geográfica, la calidad de la registración de los datos que posee, la temporalidad y oportunidad y los medios por los cuales se puede disponer de la información [@inegi2006].
 
-Como ya se ha mencionado, desarrollar una metodología válida y clara es fundamental para una correcta utilización de los RA en la confección de estadísticas del turismo (ET). Así, en la **Figura N°1.2** se presenta un conjunto de etapas y/o fases para la correcta conversión de la información almacenada en los RA, tal que permitan abordar el objetivo buscado por quien los esté utilizando.
+Como ya se ha mencionado, desarrollar una metodología válida y clara es fundamental para una correcta utilización de los RA en la confección de estadísticas del turismo (ET). Así, en la Figura N°1.2 se presenta un conjunto de etapas y/o fases para la correcta conversión de la información almacenada en los RA, tal que permitan abordar el objetivo buscado por quien los esté utilizando.
 
 ```{r Fases, echo=FALSE, fig.cap="Fases de la conversión de datos provenientes de registros administrativos en información estadística" }
 knitr::include_graphics('imagenes/figura02.png')
