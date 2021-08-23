@@ -72,7 +72,7 @@ Por último, durante el fin de semana largo contemplado en el estudio, la cantid
 
 Es importante observar que los diferentes coeficientes de distribución elaborados varían en los tres periodos de tiempo considerados.
 
-Una vez elaborados los coeficientes en base al estudio, estos se deben aplicar a la cantidad total de vehículos, informados por la empresa, que cruzaron el puesto de peaje en cada uno de los tres periodos considerados. De ese modo, se obtendrá el total de visitantes (turistas y excursionistas por separado) para cada una de las localidades (Figura 5A).
+Una vez elaborados los coeficientes en base al estudio, estos se deben aplicar a la cantidad total de vehículos, informados por la empresa, que cruzaron el puesto de peaje en cada uno de los tres periodos considerados. De ese modo, se obtendrá el total de visitantes (turistas y excursionistas por separado) para cada una de las localidades.
 
 Como se podrá observar en la Figura 3.2, en la Temporada Alta el total de vehículos ingresados ha sido de 70.000 y que el $25\%$ se dirigió a la localidad *A*, $35\%$ a la localidad *B* y $40\%$ a la localidad *C*, se puede concluir que en dicho período los automóviles que las localidades recibieron fueron, 17.500 ($70.000$\*$25\%$), 24.500 ($70.000$\*$35\%$) y 28.000 ($70.000$\*$40\%$), respectivamente.
 
