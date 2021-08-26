@@ -150,7 +150,7 @@ Otro RA utilizado sistemáticamente por el MINTURDEP es la base de movimientos a
 Para consultar las estadísticas aerocomerciales de la Argentina podés visitar la sección de datos de la página web de la [ANAC](https://datos.anac.gob.ar/estadisticas/){target="_blank"}
 :::
 
-Finalmente, el SIPA -Sistema Integrado Previsional Argentino- es otro RA trabajado por el [Ministerio de Trabajo](http://www.trabajo.gob.ar/estadisticas/){target="_blank"} y utilizado por el MINTURDEP para el seguimiento del empleo en el sectór turístico. El SIPA contabiliza los puestos de trabajo privados asalariados registrados a nivel mensual y trimestral con distintos niveles de desagregación geográfica (nacional y provincial) y de ramas de acividad.Su utilización para la estadística de turismo es tratada en el Documento Tecnico N°5.     
+Finalmente, el SIPA -Sistema Integrado Previsional Argentino- es otro RA trabajado por el [Ministerio de Trabajo](http://www.trabajo.gob.ar/estadisticas/){target="_blank"} y utilizado por el MINTURDEP para el seguimiento del empleo en el sectór turístico. El SIPA contabiliza los puestos de trabajo privados asalariados registrados a nivel mensual y trimestral con distintos niveles de desagregación geográfica (nacional y provincial) y de ramas de acividad. Su utilización para la estadística de turismo es tratada en el Documento Tecnico N°5.     
 
 Por otro lado, a nivel provincial, departamental y/o municipal se utilizan múltiples `RA` tanto desde la perspectiva de la oferta como de demanda. Aun así, existe subexplotación de la información existente y, en segundo lugar, falencias con el relevamiento y procesamiento de la información.
 
