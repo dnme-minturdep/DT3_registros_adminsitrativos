@@ -227,7 +227,6 @@ Los resultados informados son los que se exponen a continuación, en la Figura 3
 knitr::include_graphics('imagenes/figura09.png')
 ```
 
-Figura 3.7. Cantidad de visitantes por categoría informados por el CIT y cálculo de porcentaje que los mismos ocupan sobre el total de ingresos.
 
 Con los datos relevados, el instituto generador de estadísticas de la localidad procede a determinar el porcentaje de visitantes que ingresan en busca de información al CIT según categoría. En el caso de los excursionistas, un $7,54\%$ son residentes de otras localidades de la provincia, un $12,2\%$ nacionales y un $13,4\%$ extranjeros. Entre los turistas que ingresaron al CIT se cuenta con un $7,5\%$, un $25,5\%$ y un $23,8\%$, respectivamente. Por último, aquellos excursionistas que son turistas en un viaje multidestino, un $2,6\%$ de éstos pertenecen a otras localidades de la misma provincia, un $3,6\%$ a otras provincias del país y un $4,0\%$ a otros países.
 
